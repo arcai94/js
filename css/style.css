@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.8;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.ejercicio {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+    border: 1px solid grey;
+    border-radius: 0.3rem;
+    width: 40rem;
+    font-size: medium;
+}
+
+.boton {
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: gray;
+    color: white;
+}
+
+.boton:hover {
+    cursor: pointer;
+}

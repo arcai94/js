@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios JavaScript</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="palindromo.js"></script>
+    <script src="mayor.js"></script>
+    <script src="escribirVocales.js"></script>
+    <script src="numeroVocales.js"></script>
+
+</head>
+<body>
+    <header class="cabecera">
+        <div>
+            <h1>Ejercicios de JavaScript</h1>
+        </div>
+
+    </header>
+    
+    <div class="ejercicio">
+        <h2>Ejercicio 1 - Detectar Palindromo</h2>
+
+        <h3>Introduce una palabra</h3>
+    
+        <form action="#">
+                <textarea class="campo" id="palindromo" placeholder="Texto"></textarea>
+                <input class="boton" onclick="esPalindromo()" type="submit" value="Comprobar">
+        </form> 
+    </div>
+
+    <hr>
+
+    <div class="ejercicio">
+        <h2>Ejercicio 2 - Decetar el número mayor</h2>
+
+        <h3>Introduce 2 números</h3>
+
+        <form action="#">
+            <textarea class="campo" id="num1" placeholder="Número 1"></textarea>
+            <textarea class="campo" id="num2" placeholder="Número 2"></textarea>
+            <input class="boton" onclick="comprobarMayor()" type="submit" value="Comprobar">
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="ejercicio">
+        <h2>Ejercicio 3 - Escribir las vocales que aparecen</h2>
+
+        <h3>Introduce la frase</h3>
+
+        <form action="#">
+            <textarea class="campo" id="frase_1" placeholder="Texto"></textarea>
+            <input class="boton" onclick="escribirVocales()" type="button" value="Comprobar">
+        </form>
+    </div>
+
+    <hr>
+
+    <div class="ejercicio">
+        <h2>Ejercicio 4 - Escribir el número de veces que aparece cada vocal</h2>
+
+        <h3>Introduce la frase</h3>
+
+        <form action="#">
+            <textarea class="campo" id="frase_2" placeholder="Texto"></textarea>
+            <input class="boton" onclick="numeroVocales()" type="button" value="Comprobar">
+        </form>
+    </div>
+</body>
+</html>
